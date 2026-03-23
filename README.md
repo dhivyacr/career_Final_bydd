@@ -1,224 +1,119 @@
 # 🎓 Intelligent Career Guidance System
 
-An AI-powered career guidance platform that helps students identify suitable career paths based on their **skills, interests, academic performance, and mentor feedback**.
+## 📌 Overview
 
-This system allows students to track their career progress while mentors monitor student performance and provide guidance.
+The **Intelligent Career Guidance System** is an AI-based platform designed to help students and users identify the most suitable career paths based on their skills, interests, and academic background.
 
----
-
-# 🚀 Features
-
-### 👩‍🎓 Student Portal
-
-* Login using institutional email (`@bitsathy.ac.in`)
-* Create and update academic profile
-* Enter technical skills and interests
-* Get AI-based career recommendations
-* View **skill gap analysis**
-* Receive **mentor guidance**
-* Track career progress
+This system provides personalized career recommendations and helps users make informed decisions about their future.
 
 ---
 
-### 👨‍🏫 Mentor/Admin Dashboard
+## 🚀 Features
 
-* View all students who logged into the system
-* Monitor student profiles
-* Track CGPA and skill development
-* Provide personalized feedback
-* View department-wise student distribution
-
----
-
-### 🤖 AI Career Recommendation
-
-The system analyzes:
-
-* Technical skills
-* Soft skills
-* Academic performance
-* Career interests
-
-and suggests possible career paths such as:
-
-* Machine Learning Engineer
-* Full Stack Developer
-* Data Scientist
-* DevOps Engineer
+* 🔍 Career recommendation based on user input
+* 🧠 AI/ML-based decision support
+* 📊 User-friendly interface
+* 🗂 Organized backend and frontend architecture
+* ⚡ Real-time suggestions
 
 ---
 
-# 🧠 System Architecture
+## 🛠 Tech Stack
 
-```text
-Student Login
-      ↓
-Profile Creation
-      ↓
-MongoDB Database
-      ↓
-AI Career Recommendation Engine
-      ↓
-Mentor Dashboard
-      ↓
-Mentor Feedback → Student Guidance
+**Frontend:**
+
+* HTML, CSS, JavaScript
+
+**Backend:**
+
+* Node.js / Express (or your actual backend)
+
+**Database:**
+
+* MongoDB / MySQL (update if needed)
+
+**Tools & Platforms:**
+
+* Git & GitHub
+* VS Code
+
+---
+
+## 📁 Project Structure
+
+```
+career_Final_bydd/
+│── backend/
+│── frontend/
+│── client/
+│── server/
+│── Intelligent-Career-Guidance-Recommendation/
+│── README.md
+│── .gitignore
 ```
 
 ---
 
-# 🛠️ Tech Stack
-
-### Frontend
-
-* React.js
-* Tailwind CSS
-* Axios
-
-### Backend
-
-* Node.js
-* Express.js
-
-### Database
-
-* MongoDB
-* Mongoose
-
-### Authentication
-
-* Email based login (`bitsathy.ac.in` domain)
-
----
-
-# 📂 Project Structure
-
-```text
-career_Final
-│
-├── backend
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   └── server.js
-│
-├── frontend
-│   ├── components
-│   ├── pages
-│   └── App.js
-│
-├── screenshots
-│   ├── login.png
-│   ├── mentor-dashboard.png
-│   └── student-dashboard.png
-│
-└── README.md
-```
-
----
-
-# 📸 Screenshots
-
-### Login Page
-
-![Login](screenshots/login.png)
-
-### Student Dashboard
-
-![Student](screenshots/student-dashboard.png)
-
-### Mentor Dashboard
-
-![Mentor](screenshots/mentor-dashboard.png)
-
----
-
-# ⚙️ Installation Guide
+## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
 
-```bash
-git clone https://github.com/YOUR_USERNAME/career_Final.git
-cd career_Final
+```
+git clone https://github.com/dhivyacr/career_Final_bydd.git
 ```
 
----
+### 2️⃣ Navigate to project folder
 
-### 2️⃣ Install Backend Dependencies
+```
+cd career_Final_bydd
+```
 
-```bash
-cd backend
+### 3️⃣ Install dependencies
+
+```
 npm install
 ```
 
----
+### 4️⃣ Run the project
 
-### 3️⃣ Install Frontend Dependencies
-
-```bash
-cd frontend
-npm install
+```
+npm start
 ```
 
 ---
 
-### 4️⃣ Setup Environment Variables
+## 🧪 How It Works
 
-Create `.env` file inside backend.
-
-Example:
-
-```env
-MONGO_URI=mongodb://localhost:27017/intelligent_career_guidance
-PORT=5000
-JWT_SECRET=careerai
-```
+1. User provides input (skills, interests, etc.)
+2. System processes data using logic/ML model
+3. Generates suitable career recommendations
+4. Displays results to the user
 
 ---
 
-### 5️⃣ Run Backend
+## 🎯 Use Cases
 
-```bash
-cd backend
-npm run dev
-```
-
----
-
-### 6️⃣ Run Frontend
-
-```bash
-cd frontend
-npm run dev
-```
+* Students choosing career paths
+* Career counseling platforms
+* Academic guidance systems
 
 ---
 
-# 📊 Future Improvements
+## 🌟 Future Enhancements
 
-* AI-based skill gap prediction
-* Resume analysis
-* Job recommendation engine
-* Internship tracking
-* Mentor analytics dashboard
-
----
-
-# 👨‍💻 Author
-
-Developed by:
-
-**Dhivya Dharshini**
-
-Artificial Intelligence & Machine Learning
+* Add more AI models for accuracy
+* Integrate real-time job market data
+* Improve UI/UX design
+* Add user authentication
 
 ---
 
-# ⭐ Contribution
+## 👩‍💻 Author
 
-Feel free to fork this repository and contribute to improve the system.
+**Dhivya Dharshini A**
 
 ---
 
-# 📜 License
+## 📜 License
 
-This project is created for **educational and research purposes**.
+This project is for educational purposes.
